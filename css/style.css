@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+}
+
+/* Navbar css */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav ul li.logo {
+}
+
+nav ul li {
+  padding: 1em;
+}
+
+nav ul li a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #2A3079;
+  border: 2px solid;
+  border-radius: 2em;
+  padding: 0.5em;
+}
+
+nav ul li a:hover {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #2F7BCD;
+  border: 2px solid;
+  border-radius: 2em;
+  padding: 0.5em;
+}
+
+/* Main CSS */
+.image img{
+  float: right;
+  position: relative;
+  margin-left: 1em;
+  margin-right: 0;
+  width: 70%;
+  right: 0.1;
+}
+
+.text .button {
+  display: block;
+  clear: both;
+}
+
+.text-area {
+  position: absolute;
+  top: 10em;
+  margin-left: 1em;
+  margin-right: 1em;
+  color: #2A3079;
+  width: 30%;
+  margin-bottom: 1em;
+}
+
+main {
+  position: relative;
+}
+
+.text-area h1 {
+  font-size: 3em;
+  margin: 0.5em 0;
+}
+
+
+.main-area {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.text-area .button a{
+  border: 2px solid #2A3079;
+  margin: 10em 0em;
+  padding: 0.5em;
+  border-radius: 2em;
+  color: #2A3079;
+  text-decoration: none;
+  background-color: #57B8E8;
+}
+
+.text-area .button a:hover{
+  border: 2px solid #2A3079;
+  margin: 10em 0em;
+  padding: 0.5em;
+  border-radius: 2em;
+  color: #57B8E8;
+  text-decoration: none;
+  background-color: #2A3079;
+}
+
+
+.text-area .texts {
+  margin-bottom: 1em;
+}
